@@ -1,0 +1,7 @@
+{
+  "errors.DataFetch": "There was an error fetching data from `{{resourceName}}`: {{statusMessage}} ({{statusCode}})",
+  "errors.WebpageContentToValueObjectConversionError": "There was an error converting webpage to Value Object: {{errorMessage}}",
+  "errors.InvalidArgumentError": "Invalid argument `{{argumentName}}` provided for `{{parentName}}`: {{reason}}",
+  "errors.OutputterNotProvidedError": "No Outputter was provided.",
+  "errors.DataProviderNotProvidedError": "No DataProvider was provided."
+}

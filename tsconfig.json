@@ -1,0 +1,32 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "sourceMap": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "nodenext",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "node", "reflect-metadata"],
+    "paths": {
+      "@app/*": ["src/*"],
+      "@collections/*": ["src/collections/*"],
+      "@data-contexts/*": ["src/data-contexts/*"],
+      "@data-providers/*": ["src/data-providers/*"],
+      "@errors/*": ["src/errors/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@http/*": ["src/http/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@models/*": ["src/models/*"],
+      "@output/*": ["src/output/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@value-objects/*": ["src/value-objects/*"],
+      "@webpage-providers/*": ["src/webpage-providers/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
